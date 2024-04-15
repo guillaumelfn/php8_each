@@ -1,0 +1,20 @@
+PHP Has a nice example that says the following :
+
+$fruit = array('a' => 'apple', 'b' => 'banana', 'c' => 'cranberry');
+
+reset($fruit);
+while (list($key, $val) = each($fruit)) {
+    echo "$key => $val\n";
+}
+
+It should return :
+
+a => apple
+b => banana
+c => cranberry
+
+Well, with my php8_each it does.
+Just add the function anywhere you need each, so you dont have to change your code.
+
+PHP is easy.
+
