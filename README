@@ -16,5 +16,8 @@ c => cranberry
 Well, with my php8_each it does.
 Just add the function anywhere you need each, so you dont have to change your code.
 
+php8_each.php is the script to test under php8
+and php7_each.php is the script that uses each under php7
+
 PHP is easy.
 
